@@ -1,0 +1,18 @@
+<launch>
+  <node name="camera_1" pkg="cv_camera" type="cv_camera_node" output="screen" >
+    <param name="device_id" value="1" />
+    <param name="image_width" value="1920" />
+    <param name="image_height" value="1080" />
+    <param name="frame_id" value="camera_1" />
+    <param name="rectify" value="true" />
+  </node>
+
+  <!--node name="camera_2" pkg="cv_camera" type="cv_camera_node" >
+    <param name="device_id" value="3" />
+    <param name="image_width" value="1920" />
+    <param name="image_height" value="1080" />
+    <param name="frame_id" value="camera_2" />
+    <param name="rectify" value="true" />
+   </node-->
+
+</launch>
